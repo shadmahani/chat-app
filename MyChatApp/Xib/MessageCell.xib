@@ -45,8 +45,8 @@
                                 <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH8-VL-a9H">
-                                <rect key="frame" x="12" y="28" width="262" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH8-VL-a9H">
+                                <rect key="frame" x="12" y="28" width="42" height="45"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -56,7 +56,6 @@
                         <constraints>
                             <constraint firstItem="eH8-VL-a9H" firstAttribute="leading" secondItem="MCa-0H-7rC" secondAttribute="leading" constant="12" id="03R-JB-34e"/>
                             <constraint firstItem="Neu-t3-OSs" firstAttribute="leading" secondItem="MCa-0H-7rC" secondAttribute="leading" constant="5" id="9vh-vO-0ZL"/>
-                            <constraint firstAttribute="trailing" secondItem="eH8-VL-a9H" secondAttribute="trailing" constant="8" id="B5O-Fv-lNS"/>
                             <constraint firstItem="Neu-t3-OSs" firstAttribute="top" secondItem="MCa-0H-7rC" secondAttribute="top" constant="2" id="F8L-9v-Q2W"/>
                             <constraint firstItem="eH8-VL-a9H" firstAttribute="top" secondItem="Neu-t3-OSs" secondAttribute="bottom" constant="5" id="KdF-4W-Qmh"/>
                             <constraint firstAttribute="bottom" secondItem="eH8-VL-a9H" secondAttribute="bottom" constant="5" id="Sro-ba-5hd"/>
@@ -73,9 +72,10 @@
                     <constraint firstItem="MCa-0H-7rC" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="vIK-qT-dSm"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="containerView" destination="MCa-0H-7rC" id="4OP-3v-chd"/>
                 <outlet property="userImage" destination="FHv-zX-C9M" id="WtT-qR-Uiq"/>
                 <outlet property="userMessage" destination="eH8-VL-a9H" id="cfz-lD-rsD"/>
                 <outlet property="userName" destination="Neu-t3-OSs" id="spH-Vs-FwK"/>

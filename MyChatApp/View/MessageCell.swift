@@ -9,21 +9,23 @@
 import UIKit
 
 class MessageCell: UITableViewCell {
-
+    
+    @IBOutlet weak var containerView: roundViiew!
     @IBOutlet weak var userMessage: UILabel!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-    
+        
     }
-
+    
     func bind(message: Message){
         userName.text = message.userName
         userMessage.text = message.messageBody
         userImage.image = UIImage(named: message.userAvatar)
-        userImage.backgroundColor = UserData.instance.userColor(component: message.userAvatarColor)
+        userImage.backgroundColor = UserData.instance.userColor (component: message.userAvatarColor)
+        userMessage.preferredMaxLayoutWidth = 200
     }
-
+    
     
 }

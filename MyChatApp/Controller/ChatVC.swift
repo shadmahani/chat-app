@@ -115,6 +115,7 @@ class ChatVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         //tableView setup
         tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableViewAutomaticDimension
+        
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(UINib.init(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "messageCellId")
