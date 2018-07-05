@@ -10,6 +10,7 @@ import UIKit
 
 class MessageCell: UITableViewCell {
     
+    @IBOutlet weak var rightConstrain: NSLayoutConstraint!
     @IBOutlet weak var containerView: roundViiew!
     @IBOutlet weak var userMessage: UILabel!
     @IBOutlet weak var userName: UILabel!
@@ -25,7 +26,12 @@ class MessageCell: UITableViewCell {
         userImage.image = UIImage(named: message.userAvatar)
         userImage.backgroundColor = UserData.instance.userColor (component: message.userAvatarColor)
         userMessage.preferredMaxLayoutWidth = 200
+//        rightConstrain.constant = -textSize(text: userMessage.text!).width
     }
-    
+//    private func textSize(text: String)->CGRect {
+//     let size = CGSize(width: 50, height: 1)
+//        let option = NSStringDrawingOptions.usesFontLeading.union(.usesLineFragmentOrigin)
+//        return NSString(string: text).boundingRect(with: size, options: option, attributes: nil, context: nil)
+//    }
     
 }

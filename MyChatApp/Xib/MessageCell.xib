@@ -33,8 +33,8 @@
                             <constraint firstAttribute="height" constant="50" id="PVb-PT-FQF"/>
                         </constraints>
                     </imageView>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCa-0H-7rC" customClass="roundViiew" customModule="MyChatApp" customModuleProvider="target">
-                        <rect key="frame" x="58" y="11" width="282" height="78"/>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MCa-0H-7rC" customClass="roundViiew" customModule="MyChatApp" customModuleProvider="target">
+                        <rect key="frame" x="58" y="11" width="82" height="78"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Neu-t3-OSs">
                                 <rect key="frame" x="5" y="2" width="90.5" height="21"/>
@@ -45,7 +45,7 @@
                                 <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH8-VL-a9H">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH8-VL-a9H">
                                 <rect key="frame" x="12" y="28" width="42" height="45"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,6 +59,7 @@
                             <constraint firstItem="Neu-t3-OSs" firstAttribute="top" secondItem="MCa-0H-7rC" secondAttribute="top" constant="2" id="F8L-9v-Q2W"/>
                             <constraint firstItem="eH8-VL-a9H" firstAttribute="top" secondItem="Neu-t3-OSs" secondAttribute="bottom" constant="5" id="KdF-4W-Qmh"/>
                             <constraint firstAttribute="bottom" secondItem="eH8-VL-a9H" secondAttribute="bottom" constant="5" id="Sro-ba-5hd"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="eH8-VL-a9H" secondAttribute="width" constant="100" id="iia-OB-kpW"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -66,7 +67,6 @@
                 <constraints>
                     <constraint firstItem="FHv-zX-C9M" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Bcp-s2-nyl"/>
                     <constraint firstItem="MCa-0H-7rC" firstAttribute="leading" secondItem="FHv-zX-C9M" secondAttribute="trailing" constant="8" id="FBg-IT-wpr"/>
-                    <constraint firstItem="MCa-0H-7rC" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="G0a-pM-hV2"/>
                     <constraint firstItem="MCa-0H-7rC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="RXV-A3-CaM"/>
                     <constraint firstItem="FHv-zX-C9M" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="m2R-wa-6w5"/>
                     <constraint firstItem="MCa-0H-7rC" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="vIK-qT-dSm"/>

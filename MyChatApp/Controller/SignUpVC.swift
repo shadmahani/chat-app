@@ -28,10 +28,14 @@ class SignUpVC: UIViewController {
     
     
     func config(){
+        let tapOnAlertView = UITapGestureRecognizer(target: self, action: #selector(keyboradDismiss))
+        view.addGestureRecognizer(tapOnAlertView)
         //spinner
         JustHUD.instance.hide()
     }
-    
+    @objc func keyboradDismiss(){
+        view.endEditing(true)
+    }
     // dismiss button
     @IBAction func dismissBtn(_ sender: Any) {
         performSegue(withIdentifier: UN_WIND, sender: nil)
@@ -62,6 +66,7 @@ class SignUpVC: UIViewController {
             JustHUD.instance.hide()
             return
         }
+      
         if let name = userName.text , userName.text != "" , let userEmail = email.text , email.text != "" ,let userPass = pass.text , pass.text != "" {
             //validate email
             guard (email.text?.isEmailValid())! else {

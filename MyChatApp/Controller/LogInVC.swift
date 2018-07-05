@@ -22,9 +22,13 @@ class LogInVC: UIViewController {
     }
     
     func config(){
+        let tapOnAlertView = UITapGestureRecognizer(target: self, action: #selector(keyboradDismiss))
+        view.addGestureRecognizer(tapOnAlertView)
 //        spinner.isHidden = true
     }
-    
+    @objc func keyboradDismiss(){
+        view.endEditing(true)
+    }
     @IBAction func dismissBtn(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }

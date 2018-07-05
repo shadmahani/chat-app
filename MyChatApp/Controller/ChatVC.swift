@@ -20,8 +20,6 @@ class ChatVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         config()
-      
-
         navigationConfig()
         // Notifications
         NotificationCenter.default.addObserver(self, selector: #selector(changeUserData(_:)), name: NOTIF_USER_CHANGED, object: nil)
@@ -43,6 +41,7 @@ class ChatVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             channelNameLbl.setTitle("please Log in", for: .normal)
         }
     }
+    
     @objc func updateSelectedChannel(){
            self.channelNameLbl.setTitle(MessageService.instance.selectedChannel?.name, for: .normal)
         guard let channelId = MessageService.instance.selectedChannel?.id else {return}
@@ -144,5 +143,6 @@ class ChatVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             return MessageCell()
         }
     }
+   
     //-----------
 }
