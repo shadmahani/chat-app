@@ -297,7 +297,7 @@
 					94EE245C20985B8E00C9D81C = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -591,13 +591,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = S4494ET5V6;
+				DEVELOPMENT_TEAM = A56QU79AZ6;
 				INFOPLIST_FILE = "MyChatApp/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = soorena.MyChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "22a93026-087e-4f8a-ad77-692c314d13f6";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard-AdHoc-Dist";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyChatApp/Supporting files/MyChatApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -611,13 +614,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = S4494ET5V6;
+				DEVELOPMENT_TEAM = A56QU79AZ6;
 				INFOPLIST_FILE = "MyChatApp/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = soorena.MyChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b6ea564-853f-4347-9b8b-db469d5716c5";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyChatApp/Supporting files/MyChatApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

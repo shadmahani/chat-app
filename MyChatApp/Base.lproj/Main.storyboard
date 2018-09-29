@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -26,7 +26,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,26 +39,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-546" y="-145"/>
+            <point key="canvasLocation" x="-166" y="-296"/>
         </scene>
         <!--ChatVC-->
         <scene sceneID="G5o-HH-Qae">
             <objects>
                 <viewController id="iup-4F-bOL" customClass="ChatVC" customModule="MyChatApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wDI-uB-oMU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="JW9-TT-ea9">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W23-hl-o1V">
-                                <rect key="frame" x="8" y="64" width="367" height="553"/>
+                                <rect key="frame" x="8" y="88" width="367" height="640"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpB-vU-f0l">
-                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="728" width="375" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jj8-S1-rOe">
                                         <rect key="frame" x="8" y="8" width="311" height="34"/>
@@ -114,7 +114,7 @@
                     <navigationItem key="navigationItem" id="J0Q-AA-H72">
                         <nil key="title"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aZs-9U-G8a">
-                            <rect key="frame" x="108.5" y="4" width="158" height="36"/>
+                            <rect key="frame" x="108.66666666666669" y="4" width="158" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                             <state key="normal" title="chat app">
@@ -137,7 +137,7 @@
             <objects>
                 <navigationController id="8KN-S8-yzB" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YDe-CT-gZe">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -154,11 +154,11 @@
             <objects>
                 <viewController id="wp9-Ym-7Mz" customClass="ChannelVC" customModule="MyChatApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sab-wq-5hA" customClass="CustomView" customModule="MyChatApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chatting app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVe-op-xwk">
-                                <rect key="frame" x="24" y="40" width="133" height="21"/>
+                                <rect key="frame" x="24" y="64" width="133" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="133" id="QIh-Fk-JQ1"/>
                                     <constraint firstAttribute="height" constant="21" id="r7f-Uf-EFP"/>
@@ -168,7 +168,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Channels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yd-AP-IQo">
-                                <rect key="frame" x="24" y="71" width="72" height="21"/>
+                                <rect key="frame" x="24" y="95" width="72" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="TU9-qL-TUI"/>
                                     <constraint firstAttribute="width" constant="72" id="VMy-2U-p2u"/>
@@ -178,14 +178,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="Wbc-aR-m5v" customClass="CircleImage" customModule="MyChatApp" customModuleProvider="target">
-                                <rect key="frame" x="20" y="568" width="69" height="69"/>
+                                <rect key="frame" x="20" y="679" width="69" height="69"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="69" id="Ncj-TL-UCT"/>
                                     <constraint firstAttribute="height" constant="69" id="rQO-JU-Rk4"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgD-2r-TUA">
-                                <rect key="frame" x="283" y="70.5" width="22" height="22"/>
+                                <rect key="frame" x="283" y="94.666666666666671" width="22" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="2pj-am-PP5"/>
                                     <constraint firstAttribute="height" constant="22" id="icC-S7-MGb"/>
@@ -196,11 +196,11 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jTq-ih-STS">
-                                <rect key="frame" x="0.0" y="107" width="375" height="445.5"/>
+                                <rect key="frame" x="0.0" y="131" width="375" height="532.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7X-II-y9E">
-                                <rect key="frame" x="113" y="586" width="48" height="32"/>
+                                <rect key="frame" x="113" y="697" width="48" height="32"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -254,18 +254,18 @@
             <objects>
                 <viewController id="4l7-gU-0VC" customClass="LogInVC" customModule="MyChatApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iUH-gN-zf2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rR3-vn-1QB">
-                                <rect key="frame" x="331" y="30" width="28" height="28"/>
+                                <rect key="frame" x="331" y="54" width="28" height="28"/>
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="dismissBtn:" destination="4l7-gU-0VC" eventType="touchUpInside" id="NT0-Pb-O5Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YB-i2-Kem" customClass="RoundButton" customModule="MyChatApp" customModuleProvider="target">
-                                <rect key="frame" x="63" y="315" width="250" height="50"/>
+                                <rect key="frame" x="62.666666666666657" y="339" width="249.99999999999997" height="50"/>
                                 <color key="backgroundColor" red="0.25098039220000001" green="0.4431372549" blue="0.78176842209999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="P1w-tB-7sm"/>
@@ -279,7 +279,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNc-xC-D5J">
-                                <rect key="frame" x="63" y="365" width="249" height="30"/>
+                                <rect key="frame" x="63" y="389" width="249" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="gJ7-FX-f7h"/>
                                 </constraints>
@@ -291,7 +291,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="47F-gb-CJ9">
-                                <rect key="frame" x="63" y="215" width="250" height="80"/>
+                                <rect key="frame" x="62.666666666666657" y="239" width="249.99999999999997" height="80"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SoI-dg-1yn">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="17"/>
@@ -333,7 +333,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kLb-8I-MeQ">
-                                <rect key="frame" x="84" y="80" width="208" height="55"/>
+                                <rect key="frame" x="83.666666666666686" y="104" width="208" height="55"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group" translatesAutoresizingMaskIntoConstraints="NO" id="hg8-wo-47Z">
                                         <rect key="frame" x="0.0" y="0.0" width="63" height="55"/>
@@ -382,11 +382,11 @@
             <objects>
                 <viewController id="cIj-G1-ddm" customClass="SignUpVC" customModule="MyChatApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eKE-hA-nxS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gix-dR-DDv">
-                                <rect key="frame" x="331" y="30" width="28" height="28"/>
+                                <rect key="frame" x="331" y="54" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="S5x-eu-etr"/>
                                     <constraint firstAttribute="width" constant="28" id="lpb-Xm-AAI"/>
@@ -397,13 +397,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chatting App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsB-1A-OdU">
-                                <rect key="frame" x="125" y="80" width="125" height="22.5"/>
+                                <rect key="frame" x="125" y="104" width="125" height="22.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
                                 <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iA6-Zj-6VV" customClass="RoundButton" customModule="MyChatApp" customModuleProvider="target">
-                                <rect key="frame" x="62.5" y="597" width="250" height="50"/>
+                                <rect key="frame" x="62.666666666666657" y="708" width="249.99999999999997" height="50"/>
                                 <color key="backgroundColor" red="0.25098039220000001" green="0.4431372549" blue="0.78176842209999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="YP6-mx-l2J"/>
@@ -417,7 +417,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="XcM-gN-6Bs">
-                                <rect key="frame" x="62.5" y="182.5" width="250" height="127"/>
+                                <rect key="frame" x="62.666666666666657" y="206.66666666666663" width="249.99999999999997" height="127"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M6t-5u-2lB" customClass="CustomTextField" customModule="MyChatApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="17"/>
@@ -451,7 +451,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tA4-70-kSI" customClass="CustomView" customModule="MyChatApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="78" width="250" height="2"/>
+                                        <rect key="frame" x="0.0" y="78.000000000000028" width="250" height="2"/>
                                         <color key="backgroundColor" red="0.25098039220000001" green="0.4431372549" blue="0.78176842209999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="c0o-rA-iZk"/>
@@ -459,7 +459,7 @@
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FNk-WB-ctf">
-                                        <rect key="frame" x="0.0" y="94" width="250" height="17"/>
+                                        <rect key="frame" x="0.0" y="94.000000000000028" width="250" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="5cE-Rs-ywy"/>
                                         </constraints>
@@ -468,7 +468,7 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6bE-XC-s3T" customClass="CustomView" customModule="MyChatApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="125" width="250" height="2"/>
+                                        <rect key="frame" x="0.0" y="125.00000000000003" width="250" height="2"/>
                                         <color key="backgroundColor" red="0.25098039220000001" green="0.4431372549" blue="0.78176842209999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="2IB-3d-IOp"/>
@@ -481,14 +481,14 @@
                                 </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="AZD-GT-Xmf" customClass="CircleImage" customModule="MyChatApp" customModuleProvider="target">
-                                <rect key="frame" x="142.5" y="344" width="90" height="90"/>
+                                <rect key="frame" x="142.66666666666666" y="368.33333333333331" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="va3-oR-y60"/>
                                     <constraint firstAttribute="width" constant="90" id="xG8-kd-Xgt"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCa-6r-x1O">
-                                <rect key="frame" x="142.5" y="442" width="90" height="30"/>
+                                <rect key="frame" x="142.66666666666666" y="466.33333333333331" width="90" height="30"/>
                                 <state key="normal" title="Chose avatar">
                                     <color key="titleColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -497,7 +497,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCg-Sv-qeT">
-                                <rect key="frame" x="93.5" y="472" width="188" height="30"/>
+                                <rect key="frame" x="93.666666666666686" y="496.33333333333331" width="188" height="29.999999999999943"/>
                                 <state key="normal" title="Generate background color">
                                     <color key="titleColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -506,7 +506,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxx-IQ-ltL">
-                                <rect key="frame" x="16" y="30" width="28" height="28"/>
+                                <rect key="frame" x="16" y="54" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="NzI-8G-eK1"/>
                                     <constraint firstAttribute="width" constant="28" id="XCq-3g-eeJ"/>
@@ -557,11 +557,11 @@
             <objects>
                 <viewController id="ciy-er-ZQr" customClass="AvatarPickerVC" customModule="MyChatApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czY-pi-XhC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9A-za-lBq">
-                                <rect key="frame" x="16" y="30" width="28" height="28"/>
+                                <rect key="frame" x="16" y="54" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Jqr-UN-X3a"/>
                                     <constraint firstAttribute="width" constant="28" id="yR5-YG-rpY"/>
@@ -572,7 +572,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8wC-1U-GDy">
-                                <rect key="frame" x="107.5" y="20" width="160" height="29"/>
+                                <rect key="frame" x="107.66666666666669" y="44" width="160" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="iga-vg-CZd"/>
                                 </constraints>
@@ -586,7 +586,7 @@
                                 </connections>
                             </segmentedControl>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZTU-sP-aZf">
-                                <rect key="frame" x="0.0" y="78" width="375" height="589"/>
+                                <rect key="frame" x="0.0" y="102" width="375" height="676"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aBa-QD-jfP">
                                     <size key="itemSize" width="100" height="100"/>

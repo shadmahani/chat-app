@@ -56,6 +56,8 @@ class SocketService: NSObject {
             guard let userName = dataArray[3] as? String else{return}
             guard let userAvatar = dataArray[4] as? String else{return}
             guard let userAvatarColor = dataArray[5] as? String else{return}
+       
+
             let message = Message(id: userId, messageBody: messageBody, userId: userId, channelId: channelId, userName: userName, userAvatar: userAvatar, userAvatarColor: userAvatarColor, timeStamp: "2:0:0 pm")
             MessageService.instance.messages.append(message)
             completion(true, nil)

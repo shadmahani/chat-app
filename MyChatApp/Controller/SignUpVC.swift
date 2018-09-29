@@ -28,6 +28,7 @@ class SignUpVC: UIViewController {
     
     
     func config(){
+        
         let tapOnAlertView = UITapGestureRecognizer(target: self, action: #selector(keyboradDismiss))
         view.addGestureRecognizer(tapOnAlertView)
         //spinner
@@ -94,15 +95,15 @@ class SignUpVC: UIViewController {
                                     //                                AuthUserService.instance.isLoggedIn = true
                                     self.performSegue(withIdentifier: UN_WIND, sender: nil)
                                 }else{
-                                    errorHandler(err: err, view: self,isSpinnerOn: true)
+                                    errorHandler(err: err, vC: self,isSpinnerOn: true)
                                 }
                             })
                         }else{
-                            errorHandler(err: err, view: self,isSpinnerOn: true)
+                            errorHandler(err: err, vC: self,isSpinnerOn: true)
                         }
                     })
                 }else{
-                    errorHandler(err: err!, view: self,isSpinnerOn: true)
+                    errorHandler(err: err!, vC: self,isSpinnerOn: true)
                 }
             }
         }else{

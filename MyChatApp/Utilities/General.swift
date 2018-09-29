@@ -24,15 +24,15 @@ enum AvatarType {
     case light
 }
 //error handler
-func errorHandler(err : Int?, view: UIViewController,isSpinnerOn: Bool?){
+func errorHandler(err : Int?, vC: UIViewController,isSpinnerOn: Bool?){
     
     guard let err  = err else{return}
     switch err {
-    case 503 : view.present(alert(title: "error", message: "there is something wrong with the server, hang tide!", actionTitle: "ok"), animated: true, completion: nil)
+    case 503 : vC.present(alert(title: "error", message: "there is something wrong with the server, hang tide!", actionTitle: "ok"), animated: true, completion: nil)
    
-        case 401 : view.present(alert(title: "error", message: "email or password is wrong!", actionTitle: "ok"), animated: true, completion: nil)
+        case 401 : vC.present(alert(title: "error", message: "email or password is wrong!", actionTitle: "ok"), animated: true, completion: nil)
     default:
-        view.present(alert(title: "error", message: "some thing went wrong!", actionTitle: "ok"), animated: true, completion: nil)
+        vC.present(alert(title: "error", message: "some thing went wrong!", actionTitle: "ok"), animated: true, completion: nil)
 
     }
     if isSpinnerOn! {

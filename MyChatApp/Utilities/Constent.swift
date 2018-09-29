@@ -43,8 +43,3 @@ let BEARER_HEADER : [String : String] = [
     
 ]
 
-
-
-
-
-

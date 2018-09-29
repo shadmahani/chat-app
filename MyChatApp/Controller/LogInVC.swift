@@ -55,11 +55,11 @@ class LogInVC: UIViewController {
                                 NotificationCenter.default.post(name: NOTIF_USER_CHANGED, object: nil)
                                 self.performSegue(withIdentifier: UN_WIND, sender: nil)
                             }else{
-                                errorHandler(err: err, view: self, isSpinnerOn: true)
+                                errorHandler(err: err, vC: self, isSpinnerOn: true)
                             }
                         })
                     }else{
-                        errorHandler(err: err!, view: self,isSpinnerOn: true)
+                        errorHandler(err: err!, vC: self,isSpinnerOn: true)
                     }
                 }
                 )

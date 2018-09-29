@@ -48,6 +48,7 @@ extension UINavigationBar {
 
 
 extension UIColor {
+    
     // setting the color
     convenience init(r: Float , g: Float, b: Float){
         self.init(red: (CGFloat(r/255)), green: (CGFloat(g/255)), blue: (CGFloat(b/255)), alpha: 1)

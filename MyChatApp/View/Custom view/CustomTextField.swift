@@ -22,7 +22,7 @@ class CustomTextField: UITextField {
                 return l
             }
             set {
-                __maxLengths[self] = newValue
+                maxLengths[self] = newValue
                 addTarget(self, action: #selector(fix), for: .editingChanged)
             }
         }
@@ -30,8 +30,7 @@ class CustomTextField: UITextField {
             let t = textField.text
             textField.text = t?.safelyLimitedTo(length: maxLength)
         }
-    
-  
+   
 }
 extension String{
     func safelyLimitedTo(length n: Int)->String {
