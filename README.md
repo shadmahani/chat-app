@@ -1,13 +1,23 @@
-# Chat app
-** open source chat application (Slack clone)
-in this application i used the following technologies:
-  1- Socket.io
+# Chat app [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift/) 
+
+open source chat app (Slack clone)
+
+## Libraries
+* <strong>Socket.io</strong><br>
     for real-time response
-  2- Alamofire , swifty json
+* <strong>Alamofire , swifty json</strong><br>
     for rest api handeling
-  3- SWReavealViewController
+* <strong>SWReavealViewController</strong><br>
     for side bar menu
-  4- Firebase, Fabric
+* <strong>Firebase, Fabric</strong><br>
     for crash reporting
-  5- reachability swift
-    for internet checking
+* <strong>reachability swift</strong><br>
+       for internet checking
+
+### Features
+* chat with others(group)
+* Sign/Log in with email
+* set image profile
+* recive messages instantlly(real-time)
+* see who is typing
+* add channels
