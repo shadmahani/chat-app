@@ -1,6 +1,11 @@
 # Chat app [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift/) 
 
 open source chat app (Slack clone)
+<div>
+<img align="left" src="Images/Chat%20app%201.png" width = "250">
+<img align="left" src="Images/Chat%20app%202.png" width = "250">
+<img  src="Images/Chat%20app%203.png" width = "250">
+</div>
 
 ## Libraries
 * <strong>Socket.io</strong><br>
@@ -14,10 +19,11 @@ open source chat app (Slack clone)
 * <strong>reachability swift</strong><br>
        for internet checking
 
-### Features
+## Features
 * chat with others(group)
 * Sign/Log in with email
 * set image profile
 * recive messages instantlly(real-time)
 * see who is typing
 * add channels
+> fdsfsdf
