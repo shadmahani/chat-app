@@ -8,15 +8,15 @@ open source chat app (Slack clone)
 </div>
 
 ## Libraries
-* <strong>Socket.io</strong><br>
+* <strong>[Socket.io](https://github.com/socketio/socket.io-client-swift) </strong><br>
     for real-time response
-* <strong>Alamofire , swifty json</strong><br>
+* <strong>[Alamofire](https://github.com/Alamofire/Alamofire) , [swifty json](https://github.com/SwiftyJSON/SwiftyJSON)</strong><br>
     for rest api handeling
-* <strong>SWReavealViewController</strong><br>
+* <strong>[SWReavealViewController](https://github.com/John-Lluch/SWRevealViewController)</strong><br>
     for side bar menu
-* <strong>Firebase, Fabric</strong><br>
+* <strong>[Firebase](), [Fabric]()</strong><br>
     for crash reporting
-* <strong>reachability swift</strong><br>
+* <strong>[reachability swift]()</strong><br>
        for internet checking
 
 ## Features
