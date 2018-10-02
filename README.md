@@ -26,4 +26,6 @@ open source chat app (Slack clone)
 * recive messages instantlly(real-time)
 * see who is typing
 * add channels
-> fdsfsdf
+
+
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
