@@ -1,4 +1,4 @@
-# Chat app [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift/) [![Platform](https://img.shields.io/badge/Platform-IOS-orange.svg?style=flat)](https://developer.apple.com/swift/) 
+# Chat app [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift/) [![Platform](https://img.shields.io/badge/Platform-IOS-orange.svg?style=flat)](https://developer.apple.com/) 
 
 open source chat app (Slack clone)
 <div>
